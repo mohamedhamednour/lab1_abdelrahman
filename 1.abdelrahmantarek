@@ -1,0 +1,20 @@
+name: Abdelrahman Tarek Awad Omar
+
+task 1:
+
+ git config --global user.email "abdelrahman.tarek.omar@gmail.com"
+ ssh-keygen -t rsa -b 4069 -C "abdelrahman.tarek.omar@gmail.com"
+ cat /home/abdelrahman/.ssh/id_rsa.pub
+ mkdir resop2
+ cd resop2
+ git init
+ touch 1.abdelrahmantarek
+ git add 1.abdelrahmantarek
+ git commit -m "mess"
+ git remote add origin git@github.com:abdelrahman35/lab1_abdelrahman.git
+ git branch -M main
+ git push origin main
+ git clone git@github.com:abdelrahman35/lab1_abdelrahman.git
+ cd lab1_abdelrahman
+ vim 1.abdelrahmantarek
+
